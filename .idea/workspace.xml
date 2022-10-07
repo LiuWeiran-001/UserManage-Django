@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3aac7f1-e2fa-44d1-a02b-b7f529383111" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2FikJMT7A7vvww4FT1gKmTEiNBQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pycharm\UserManage" />
+      <recent name="D:\pycharm\UserManage\app\utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pycharm\UserManage\app\utils" />
+      <recent name="D:\pycharm\UserManage\app\static\plugins" />
+      <recent name="D:\pycharm\UserManage\app\templates" />
+      <recent name="D:\pycharm\UserManage\app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django server.UserManage">
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UserManage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/templates" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/templates/1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UserManage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/utils/code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="encrypt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UserManage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/utils/encrypt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UserManage" type="Python.DjangoServer" factoryName="Django server">
+      <module name="UserManage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="UserManage.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.code" />
+        <item itemvalue="Python.encrypt" />
+        <item itemvalue="Python.1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3aac7f1-e2fa-44d1-a02b-b7f529383111" name="Default Changelist" comment="" />
+      <created>1664982218947</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664982218947</updated>
+      <workItem from="1664982222103" duration="1983000" />
+      <workItem from="1665018240347" duration="29296000" />
+      <workItem from="1665151091507" duration="6591000" />
+      <workItem from="1665157754903" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1665156032567">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1600.9.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1665156032567" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1664983008983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/-1600.9.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1664983008983" />
+    <state width="1877" height="276" key="GridCell.Tab.0.bottom" timestamp="1665157733385">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.0.bottom/-1600.9.1600.860/0.0.1920.1040@-1600.9.1600.860" timestamp="1665156531374" />
+    <state width="1877" height="276" key="GridCell.Tab.0.bottom/-1600.9.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1665157733385" />
+    <state width="1877" height="276" key="GridCell.Tab.0.center" timestamp="1665157733385">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.0.center/-1600.9.1600.860/0.0.1920.1040@-1600.9.1600.860" timestamp="1665156531374" />
+    <state width="1877" height="276" key="GridCell.Tab.0.center/-1600.9.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1665157733385" />
+    <state width="1877" height="276" key="GridCell.Tab.0.left" timestamp="1665157733385">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.0.left/-1600.9.1600.860/0.0.1920.1040@-1600.9.1600.860" timestamp="1665156531374" />
+    <state width="1877" height="276" key="GridCell.Tab.0.left/-1600.9.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1665157733385" />
+    <state width="1877" height="276" key="GridCell.Tab.0.right" timestamp="1665157733385">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.0.right/-1600.9.1600.860/0.0.1920.1040@-1600.9.1600.860" timestamp="1665156531374" />
+    <state width="1877" height="276" key="GridCell.Tab.0.right/-1600.9.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1665157733385" />
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1665145268933">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom/-1600.9.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1665145268933" />
+    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1665145268933">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.center/-1600.9.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1665145268933" />
+    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1665145268933">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.left/-1600.9.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1665145268933" />
+    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1665145268933">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.right/-1600.9.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1665145268933" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1664983012097">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/-1600.9.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1664983012097" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/UserManage$1.coverage" NAME="1 Coverage Results" MODIFIED="1665073051480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/templates" />
+    <SUITE FILE_PATH="coverage/UserManage$code.coverage" NAME="code Coverage Results" MODIFIED="1665156007534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/utils" />
+    <SUITE FILE_PATH="coverage/UserManage$encrypt.coverage" NAME="encrypt Coverage Results" MODIFIED="1665151226817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/utils" />
+  </component>
+</project>

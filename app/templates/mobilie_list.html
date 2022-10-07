@@ -1,0 +1,62 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+    <div class="container">
+        <div style="margin-bottom: 10px" class="clearfix">
+            <a href="/mobile/add/" class="btn btn-success">
+                <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+                新建靓号
+            </a>
+            <form method="get">
+                <div style="float: right; width: 300px">
+                    <div class="input-group">
+                        <input type="text" name="search" class="form-control" placeholder="Search for...">
+                        <span class="input-group-btn">
+                        <button class="btn btn-default" type="submit">搜索</button>
+                         </span>
+                    </div><!-- /input-group -->
+                </div>
+            </form>
+
+        </div>
+        <div class="panel panel-default" style="margin-top: 20px">
+            <!-- Default panel contents -->
+            <div class="panel-heading">靓号列表</div>
+            <!-- Table -->
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>号码</td>
+                    <td>价格</td>
+                    <td>级别</td>
+                    <td>状态</td>
+                </tr>
+                </thead>
+                <tbody>
+                {% for item in queryset %}
+                    <tr>
+                        <td>{{ item.id }}</td>
+                        <td>{{ item.mobile }}</td>
+                        <td>{{ item.price }}</td>
+                        <td>{{ item.get_level_display }}</td>
+                        <td>{{ item.get_status_display }}</td>
+                        <td>
+                            <a href="/mobile/{{ item.id }}/edit/" class="btn btn-primary btn-xs">编辑</a>
+                            <a href="/mobile/{{ item.id }}/delete/" class="btn btn-danger btn-xs ">删除</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div style="text-align: center">
+        <ul class="pagination">
+            {{ page_string }}
+        </ul>
+    </div>
+
+
+{% endblock %}
