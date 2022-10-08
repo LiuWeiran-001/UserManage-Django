@@ -26,7 +26,7 @@ class UserInfo(models.Model):
     gender_chioces = (
         (1, "男"),
         (2, "女"),
-    )    # 元组套元组
+    )  # 元组套元组
     gender = models.SmallIntegerField(verbose_name="性别", choices=gender_chioces)
 
 
@@ -58,3 +58,30 @@ class Admin(models.Model):
 
     def __str__(self):
         return self.user_name
+
+
+class Task(models.Model):
+    """任务"""
+    level_choices = (
+        (1, "紧急"),
+        (2, "重要"),
+        (3, "临时"),
+    )
+
+    level = models.SmallIntegerField(verbose_name="级别", choices=level_choices, default=1)
+    title = models.CharField(max_length=63, verbose_name="标题")
+    detail = models.TextField(verbose_name="详细信息")
+    user = models.ForeignKey(verbose_name="负责人", to="Admin", on_delete=models.CASCADE)
+
+
+class Order(models.Model):
+    oid = models.CharField(max_length=64, verbose_name="订单号", blank=False, null=False)
+    title = models.CharField(max_length=32, verbose_name="名称")
+    price = models.FloatField(verbose_name="价格")
+
+    status_choices = (
+        (1, "待支付"),
+        (2, "已支付"),
+    )
+    status = models.SmallIntegerField(verbose_name="状态", choices=status_choices, default=1)
+    admin = models.ForeignKey(verbose_name="管理员", to="Admin", on_delete=models.CASCADE)

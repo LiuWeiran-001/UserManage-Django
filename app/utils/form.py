@@ -1,3 +1,4 @@
+
 from django import forms
 from django.core.exceptions import ValidationError
 
@@ -118,3 +119,20 @@ class LoginForm(forms.Form):
         pwd = self.cleaned_data.get("password")
         pwd = encrypt.md5(pwd)
         return pwd
+
+
+class TaskModelForm(BootstrapModelForm):
+    class Meta:
+        model = Task
+        fields = "__all__"
+        widgets = {
+            "detail": forms.TextInput,
+        }
+
+
+class OrderModelForm(BootstrapModelForm):
+    class Meta:
+        model = Order
+        exclude = ['oid', 'admin']
+
+

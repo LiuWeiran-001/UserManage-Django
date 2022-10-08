@@ -28,7 +28,7 @@ def login(request):
                 form.add_error("user_name", "用户名或密码错误")  # 主动添加错误信息
                 return render(request, 'login.html', {'form': form})
             request.session["info"] = {'id': admin_obj.id, 'name': admin_obj.user_name}  # 将用户信息写入session
-            request.session.set_expiry(60*60*24*7)  # session 保存七天
+            request.session.set_expiry(60 * 60 * 24 * 7)  # session 保存七天
             return redirect('/admin/list')
         return render(request, 'login.html', {'form': form})
 
@@ -47,7 +47,6 @@ def image_code(request):
     request.session['image_code'] = code_string
     # 设置60秒超时
     request.session.set_expiry(60)
-    print(code_string)
     stream = BytesIO()
     img.save(stream, 'png')
     return HttpResponse(stream.getvalue())
