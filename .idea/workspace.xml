@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3aac7f1-e2fa-44d1-a02b-b7f529383111" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/migrations/0004_task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/migrations/0005_order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/order_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/task_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserManage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserManage/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/account.py" afterDir="false" />
-    </list>
+    <list default="true" id="d3aac7f1-e2fa-44d1-a02b-b7f529383111" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +164,7 @@
       <workItem from="1665151091507" duration="6591000" />
       <workItem from="1665157754903" duration="3000" />
       <workItem from="1665193239125" duration="23343000" />
-      <workItem from="1665231661367" duration="661000" />
+      <workItem from="1665231661367" duration="1242000" />
     </task>
     <servers />
   </component>
